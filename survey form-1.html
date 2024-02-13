@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Feedback</title>
+    <!--favicoon image-->
+    <link rel="icon" type="image//x-icon" href="/landingpage/images/favicon-32x32.png">
+    <style>
+        body {
+            background-color: rgb(247, 238, 227);
+        }
+        /*form element styling*/
+        div {
+            margin: auto;
+            text-align: center;
+            max-width: 40%;
+            border: double;
+            border-radius: 20px;
+            background-color: #ff5100;
+        }
+    </style>
+</head>
+<body>
+    <!--survey form start from here.-->
+    <form>
+        <div>
+            <h1>CUSTOMER SURVEY</h1>
+            <p>Thank you for shopping with us! <br>Please take a few minutes to rate us so we can serve you better.</p>
+            <hr>
+            <br>
+
+            <p>Your rating for our services</p>
+            <label for="bad">Bad</label><input type="radio" title="select" name="rating1" value="bad" id="bad">
+            <label for="neutral">Neutral</label><input type="radio" title="select" name="rating1" value="neutral" id="neutral">
+            <label for="excellent">Excellent</label><input type="radio" title="select" name="rating1" value="excellent" id="excellent">
+
+            <br>
+            <br>
+            <p>Your rating for our products</p>
+            <label for="bad1">Bad</label><input type="radio" title="select" name="rating2" value="bad" id="bad1">
+            <label for="neutral1">Neutral</label><input type="radio" title="select" name="rating2" value="neutral" id="neutral1">
+            <label for="excellent1">Excellent</label><input type="radio" title="select" name="rating2" value="neutral" id="excellent1">
+
+            <br>
+            <br>
+            <p>Your rating for our customer care executive</p>
+            <label for="bad2">Bad</label><input type="radio" title="select" name="rating3" value="bad" id="bad2">
+            <label for="neutral2">Neutral</label><input type="radio" title="select" name="rating3" value="neutral" id="neutral2">
+            <label for="excellent2">Excellent</label><input type="radio" title="select" name="rating3" value="neutral" id="excellent2">
+
+            <br>
+            <br>
+            <p>Rate our Delivery services</p>
+            <label for="bad3">Bad</label><input type="radio" title="select" name="rating4" value="bad" id="bad3">
+            <label for="neutral3">Neutral</label><input type="radio" title="select" name="rating4" value="neutral" id="neutral3">
+            <label for="excellent3">Excellent</label><input type="radio" title="select" name="rating4" value="neutral" id="excellent3">
+
+            <br>
+            <br>
+            <hr>
+            <br>
+            <label for="anyfeed">How else can we improve? </label>
+            <input type="text" placeholder="Any feedback" title="any feedback" id="anyfeed">
+            <br>
+            <br>
+            <hr>
+            <label for="nam">Enter Your Name </label>
+            <input type="text" placeholder="Your Name" title="Your Name" id="nam">
+            <br>
+            <br>
+            <label for="dat">Date of feedback </label>
+            <input type="date" title="Current Date" id="dat">
+            <br>
+            <hr>
+            <br>
+            <label for="sub">Click Here</label><button type="submit" value="submitted" id="sub">Submit</button><br><br>
+        </div>
+    </form>
+</body>
+</html>

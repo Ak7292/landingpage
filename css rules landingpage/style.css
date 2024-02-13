@@ -1,0 +1,102 @@
+/* top banner styling*/
+header{
+           
+           padding: 15px;
+           font-family:Georgia, 'Times New Roman', Times, serif;
+           background-image: url(/landingpage/images/Bihari-Food.jpg);
+           color: hwb(0 100% 0%);
+           font-size:110%;
+        }
+        /* navigation bar styling*/
+.but{
+            margin-top: 10px;
+            text-decoration: none;
+            background-color:#ff7300;
+            font-size: larger;
+            padding-right: 50px;
+            color: #000000; 
+            border-radius: 15px;
+            
+}
+.but:hover{
+    color:aliceblue;
+}
+.but:visited{
+    color: aliceblue;
+}
+.but:active{
+    color: aliceblue;
+}
+/*aligining the col id element to the center*/
+#col{
+    align-items: center;
+    
+}
+/* paragraph styling*/
+p{
+    margin-left: 0px; 
+    margin-right: 0px;
+    text-align: center;
+    
+}
+/* litti intro part styling*/
+.litti_main{
+    float: right;
+    max-width:50%;
+}
+/* table related items styled here*/
+fieldset{
+    background-color: #ff7300;
+    display: inline-block;
+    width: 100%
+}
+
+#table{
+    background-color: #ffffff;
+    align-items: center;
+    border: 2px dotted #ff7300;
+    border-radius: 20px;
+}
+
+table{
+    margin: auto; 
+    align-items: center;
+    
+}
+table>a{
+    text-decoration: none;
+}
+
+#h3header{
+    display: inline;
+}
+/* h1 heading styling of main section*/
+.mainheading:hover{
+   color: rgb(255, 255, 255);
+   border-color: #ff7300;
+}
+.mainheading{
+    max-width:fit-content;
+    margin: auto;
+    border: 2px dotted #ff7300;
+    border-radius: 10px;
+    background-color: #ff7300;
+}
+/*top banner styling*/
+.heading:hover{
+    color: hwb(24 0% 3%);
+ }
+
+ /*footer img logo style*/
+ div>a>img{
+    max-width:30px;
+    border: 2px dotted #ff7300;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    
+ }
+
+
+
+
+
